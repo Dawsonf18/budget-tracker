@@ -21,9 +21,6 @@ request.onsuccess = function(event) {
    if (navigator.online) {
         uploadTransaction();
    }
-   if (navigator.offline) {
-       saveRecord();
-   }
 };
 
 request.onerror = function(event) {
